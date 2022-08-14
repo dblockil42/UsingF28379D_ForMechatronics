@@ -30,7 +30,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/dblockil42/UsingF28379D_ForMechatronics">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="launchxl-f28379d.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Instructing Mechatronics with the Texas Instruments TMS320F28379D README.md</h3>
@@ -110,13 +110,13 @@ You will need to have installed Texas Instruments Code Composer Studio.  I am cu
 
 ### Prerequisites
 
-Some Knowledge of C programming is very helpful
+Knowledge of C programming is very important.
 
 ### Installation
 
 _Steps for installing:_
 
-1. Download and install CCS 11.2  [https://ti.com](https://ti.com)
+1. Download and install CCS 11.2  [https://www.ti.com/tool/download/CCSTUDIO](https://www.ti.com/tool/download/CCSTUDIO)
 2. Download and install C2000Ware 4.01 https://www.ti.com/tool/C2000WARE  Actually not directly needed, as all source code is included in this repository, but by installing C2000Ware you will agree with Texas Instruments License for C2000Ware.  
 3. Clone the repo
    ```sh
@@ -133,7 +133,7 @@ _Steps for installing:_
 
 Best to start at the YouTube channel :  Coming Soon
 
-_For more examples, please refer to the class websites [Documentation](http://coecsl.ece.illinois.edu/se423)_ and [Documentation](http://coecsl.ece.illinois.edu/me461)_
+_For more examples, please refer to the class websites [SE423 (Mechatronics](http://coecsl.ece.illinois.edu/se423) and [ME461 (Computer Control of Mechanical Systems)](http://coecsl.ece.illinois.edu/me461)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -142,7 +142,7 @@ _For more examples, please refer to the class websites [Documentation](http://co
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Add More Starter Projects for additional Peripheral
+- [ ] Add More Starter Projects for additional Peripherals
 - [ ] Add SYS/BIOS Starter Project
 - [ ] Continue to add videos to YouTube channel explaining the given Starter Projects in detail.
 
@@ -223,4 +223,4 @@ Many of my students with their questions helped me put this together!
 [license-url]: https://github.com/dblockil42/UsingF28379D_ForMechatronics/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/dan-block-122b0315/
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: launchxl-f28379d.png
