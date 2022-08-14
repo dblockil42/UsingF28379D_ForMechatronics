@@ -110,6 +110,8 @@ You will need to have installed Texas Instruments Code Composer Studio.  I am cu
 
 ### Prerequisites
 
+Access to the LAUNCHXL-F28379D Development Board https://www.ti.com/tool/LAUNCHXL-F28379D
+Fabricate the Breakout board I developed for the LAUNCHXL-F28379D.
 Knowledge of C programming is very important.
 
 ### Installation
