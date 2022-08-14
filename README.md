@@ -82,7 +82,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](http://coecsl.ece.illinois.edu)
+[![Product Name Screen Shot][product-screenshot]](http://coecsl.ece.illinois.edu/me461)
 
 The TMS320F28379D is an incredibly powerful processor for embedded control design
 
@@ -110,8 +110,10 @@ You will need to have installed Texas Instruments Code Composer Studio.  I am cu
 
 ### Prerequisites
 
-Access to the LAUNCHXL-F28379D Development Board https://www.ti.com/tool/LAUNCHXL-F28379D
-Fabricate the Breakout board I developed for the LAUNCHXL-F28379D.
+Access to the LAUNCHXL-F28379D Development Board https://www.ti.com/tool/LAUNCHXL-F28379D.
+
+Fabricate the Breakout board I developed for the LAUNCHXL-F28379D https://github.com/dblockil42/UsingF28379D_ForMechatronics/tree/main/EagleCAD_ME461Board.
+
 Knowledge of C programming is very important.
 
 ### Installation
@@ -225,4 +227,4 @@ Many of my students with their questions helped me put this together!
 [license-url]: https://github.com/dblockil42/UsingF28379D_ForMechatronics/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/dan-block-122b0315/
-[product-screenshot]: launchxl-f28379d.png
+[product-screenshot]: segbot.png
