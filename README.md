@@ -227,4 +227,4 @@ Many of my students with their questions helped me put this together!
 [license-url]: https://github.com/dblockil42/UsingF28379D_ForMechatronics/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/dan-block-122b0315/
-[product-screenshot]: segbot.png
+[product-screenshot]: Segbot.png
