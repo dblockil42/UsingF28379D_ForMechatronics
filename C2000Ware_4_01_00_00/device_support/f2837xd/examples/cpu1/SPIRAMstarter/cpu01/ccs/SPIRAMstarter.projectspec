@@ -1,0 +1,49 @@
+<projectSpec>
+  <project
+        name="SPIRAMstarter"
+        device="TMS320F28379D"
+        cgtVersion="20.2.2.LTS"
+        launchWizard="False"
+        linkerCommandFile=""
+        >
+    <configuration name="CPU1_RAM" compilerBuildOptions="--opt_level=off -I${C2000WARE_COMMON_INCLUDE} -I${C2000WARE_HEADERS_INCLUDE} -I${PROJECT_ROOT}/device -I${C2000WARE_DLIB_ROOT} -I${C2000WARE_DSPLIB_ROOT} --define=DEBUG  -ml -mt -v28 --float_support=fpu32 --cla_support=cla1 --vcu_support=vcu2 --tmu_support=tmu0  --define=DEBUG --define=_DUAL_HEADERS --define=CPU1 --define=_LAUNCHXL_F28379D  --diag_warning=225  --diag_suppress=10063 --display_error_number" linkerBuildOptions="--stack_size=0x800  " />
+    <configuration name="CPU1_FLASH" compilerBuildOptions="--opt_level=off -I${C2000WARE_COMMON_INCLUDE} -I${C2000WARE_HEADERS_INCLUDE} -I${PROJECT_ROOT}/device -I${C2000WARE_DLIB_ROOT} -I${C2000WARE_DSPLIB_ROOT} --define=DEBUG --define=_FLASH --define=_LAUNCHXL_F28379D  -ml -mt -v28 --float_support=fpu32 --cla_support=cla1 --vcu_support=vcu2 --tmu_support=tmu0  --define=DEBUG --define=_DUAL_HEADERS --define=CPU1  --diag_warning=225  --diag_suppress=10063 --display_error_number" linkerBuildOptions="--stack_size=0x800  " />
+    <pathVariable name="C2000WARE_COMMON_INCLUDE" path="../../../../../common/include/" scope="project" />
+    <pathVariable name="C2000WARE_HEADERS_INCLUDE" path="../../../../../headers/include/" scope="project" />
+    <pathVariable name="C2000WARE_DLIB_ROOT" path="../../../../../../../driverlib/f2837xd/driverlib/" scope="project" />
+	<pathVariable name="C2000WARE_DSPLIB_ROOT" path="../../../../../../../libraries/dsp/FPU/c28/include/" scope="project" />
+    <file action="copy" path="../../../../../common/include/driverlib.h" targetDirectory="device" />
+    <file action="copy" path="../../../../../common/include/device.h" targetDirectory="device" />
+    <file action="copy" path="../../../../../common/source/device.c" targetDirectory="device" />
+    <file action="copy" path="../../../../../common/source/F2837xD_CodeStartBranch.asm" targetDirectory="" />
+    <file action="copy" path="../../../../../common/source/F2837xD_DefaultISR.c" targetDirectory="" />
+    <file action="copy" path="../../../../../common/source/F2837xD_Gpio.c" targetDirectory="" />
+	<file action="copy" path="../../../../../common/source/F2837xD_EPwm.c" targetDirectory="" />
+	<file action="copy" path="../../../../../common/source/F2837xD_Adc.c" targetDirectory="" />
+	<file action="copy" path="../../../../../common/source/F2837xD_CpuTimers.c" targetDirectory="" />	
+	<file action="copy" path="../../../../../common/source/F2837xD_Spi.c" targetDirectory="" />	
+    <file action="copy" path="../../../../../common/source/F2837xD_PieCtrl.c" targetDirectory="" />
+    <file action="copy" path="../../../../../common/source/F2837xD_PieVect.c" targetDirectory="" />
+    <file action="copy" path="../../../../../common/source/F2837xD_SysCtrl.c" targetDirectory="" />
+    <file action="copy" path="../../../../../common/source/F2837xD_usDelay.asm" targetDirectory="" />
+    <file action="copy" path="../../../../../headers/cmd/F2837xD_Headers_nonBIOS_cpu1.cmd" targetDirectory="" />    
+    <file action="copy" path="../../../../../headers/source/F2837xD_GlobalVariableDefs.c" targetDirectory="" />
+    <file action="copy" path="../../../../../common/targetConfigs/TMS320F28379D.ccxml" targetDirectory="targetConfigs" />
+    <file action="copy" path="../../../../../common/cmd/2837xD_RAM_lnk_cpu1.cmd" targetDirectory="" applicableConfigurations="CPU1_RAM" />
+    <file action="copy" path="../../../../../common/cmd/2837xD_FLASH_lnk_cpu1.cmd" targetDirectory="" applicableConfigurations="CPU1_FLASH" />  
+	<file action="link" path="../../../../../../../libraries/dsp/FPU/c28/lib/c28x_fpu_dsp_library.lib" targetDirectory="" />	
+    <file action="link" path="../../../../../../../driverlib/f2837xd/driverlib/ccs/Debug/driverlib.lib" targetDirectory="" />
+    <file action="copy" path="../../../../../../../driverlib/f2837xd/driverlib/" targetDirectory="device" excludeFromBuild="True" />
+    <file action="copy" path="../SPIRAMstarter_main.c" targetDirectory="" />
+    <file action="copy" path="../buffer.h" targetDirectory="" />	
+    <file action="copy" path="../F28379dSerial.h" targetDirectory="" />
+    <file action="copy" path="../F28379dSerial.c" targetDirectory="" />
+    <file action="copy" path="../LEDPatterns.c" targetDirectory="" />
+    <file action="copy" path="../LEDPatterns.h" targetDirectory="" />
+    <file action="copy" path="../SpiRAM.h" targetDirectory="" />
+	<file action="copy" path="../SpiRAM.c" targetDirectory="" />	
+	<file action="copy" path="../song.h" targetDirectory="" />
+    <file action="copy" path="../.gitignore" targetDirectory="" />	
+	<file action="copy" path="../matlab/" targetDirectory="" excludeFromBuild="True" />
+  </project>
+</projectSpec>

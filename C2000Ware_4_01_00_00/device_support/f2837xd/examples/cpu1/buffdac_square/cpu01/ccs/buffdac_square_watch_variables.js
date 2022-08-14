@@ -1,0 +1,18 @@
+//Add Watch window Variables
+expRemoveAll()
+expAdd ("waveformGain")
+expAdd ("waveformOffset")
+expAdd ("outputFreq_hz")
+expAdd ("maxOutputFreq_hz")
+expAdd ("samplingFreq_hz")
+expAdd ("freqResolution_hz")
+expAdd ("maxOutput_lsb")
+expAdd ("minOutput_lsb")
+expAdd ("pk_to_pk_lsb")
+expAdd ("cpuPeriod_us")
+expAdd ("samplingPeriod_us")
+expAdd ("interruptCycles")
+expAdd ("interruptDuration_us")
+expAdd ("sgen")
+expAdd ("DataLog")
+

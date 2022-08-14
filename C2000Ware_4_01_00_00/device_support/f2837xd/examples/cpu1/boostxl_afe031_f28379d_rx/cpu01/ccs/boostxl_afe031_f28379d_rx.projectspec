@@ -1,0 +1,47 @@
+<projectSpec>
+  <project
+        name="boostxl_afe031_f28379d_rx"
+        device="TMS320F28379D"
+        cgtVersion="21.6.0.LTS"
+        products="c2000ware_software_package"
+        launchWizard="False"
+        linkerCommandFile="" >
+        <configuration name="CPU1_RAM"
+        compilerBuildOptions="--opt_level=2 -I${F28379D_DEVICE_SUPPORT_ROOT}/../../libraries/math/IQmath/c28/include
+        -I${F28379D_DEVICE_SUPPORT_ROOT}/headers/include -I${F28379D_DEVICE_SUPPORT_ROOT}/common/include  
+		-v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --fp_mode=relaxed  --define=CPU1 --define=_LAUNCHXL_F28379D -g --diag_suppress=1311 --diag_warning=225 --display_error_number"
+        linkerBuildOptions="--stack_size=0x100 -l rts2800_fpu32.lib" />
+        <configuration name="CPU1_FLASH"
+        compilerBuildOptions="--opt_level=2 -I${F28379D_DEVICE_SUPPORT_ROOT}/../../libraries/math/IQmath/c28/include
+        -I${F28379D_DEVICE_SUPPORT_ROOT}/headers/include -I${F28379D_DEVICE_SUPPORT_ROOT}/common/include  
+		--define=_FLASH  -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --fp_mode=relaxed  --define=CPU1 --define=_LAUNCHXL_F28379D -g --diag_suppress=1311 --diag_warning=225 --display_error_number"
+        linkerBuildOptions="--stack_size=0x100 -l rts2800_fpu32.lib" />
+    <pathVariable name="F28379D_DEVICE_SUPPORT_ROOT" path="../../../../../" scope="project" />
+    <file action="copy" path="../../../../../common/targetConfigs/TMS320F28379D.ccxml" targetDirectory="targetConfigs" />
+    <file action="copy" path="../../../../../common/cmd/2837xD_RAM_afe031_lnk_cpu1.cmd" targetDirectory="" applicableConfigurations="CPU1_RAM" />
+    <file action="copy" path="../../../../../common/cmd/2837xD_FLASH_afe031_lnk_cpu1.cmd" targetDirectory="" applicableConfigurations="CPU1_FLASH" />
+    <file action="copy" path="../../../../../common/source/F2837xD_CodeStartBranch.asm" targetDirectory="" applicableConfigurations="CPU1_FLASH" />
+    <file action="copy" path="../../../../../common/source/F2837xD_DefaultISR.c" targetDirectory="" />
+    <file action="copy" path="../../../../../common/source/F2837xD_EPwm.c" targetDirectory="" />
+    <file action="copy" path="../../../../../common/source/F2837xD_Gpio.c" targetDirectory="" />
+    <file action="copy" path="../../../../../common/source/F2837xD_Ipc.c" targetDirectory="" />
+    <file action="copy" path="../../../../../common/source/F2837xD_PieCtrl.c" targetDirectory="" />
+    <file action="copy" path="../../../../../common/source/F2837xD_PieVect.c" targetDirectory="" />
+    <file action="copy" path="../../../../../common/source/F2837xD_SysCtrl.c" targetDirectory="" />
+	<file action="copy" path="../../../../../common/source/F2837xD_Adc.c" targetDirectory="" />
+	<file action="copy" path="../../../../../common/source/F2837xD_CpuTimers.c" targetDirectory="" />
+    <file action="copy" path="../../../../../common/source/F2837xD_usDelay.asm" targetDirectory="" />
+    <file action="copy" path="../../../../../headers/source/F2837xD_GlobalVariableDefs.c" targetDirectory="" />
+    <file action="copy" path="../../../../../headers/cmd/F2837xD_Headers_nonBIOS_cpu1.cmd" targetDirectory="" />
+    <file action="copy" path="../afe031_config.c" targetDirectory="" />
+    <file action="copy" path="../afe031_config.h" targetDirectory="" />
+	<file action="copy" path="../boostxl_afe031_f28379d_rx_isr.h" targetDirectory="" />
+    <file action="copy" path="../boostxl_afe031_f28379d_rx_main.c" targetDirectory="" />
+    <file action="copy" path="../hal_afe031.h" targetDirectory="" />
+    <file action="copy" path="../hal_spi.c" targetDirectory="" />
+    <file action="copy" path="../hal_spi.h" targetDirectory="" />
+	<file action="copy" path="../fsk_corr_detector.h" targetDirectory="" />
+	<file action="copy" path="../fsk_packetization.h" targetDirectory="" />
+	<file action="copy" path="../fsk_corr_detect.lib" targetDirectory="" />
+  </project>
+</projectSpec>

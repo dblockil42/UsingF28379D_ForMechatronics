@@ -1,0 +1,104 @@
+/**********************************************************************
+* File: ClaTasks.cla
+* Devices: TMS320F28x7x
+* Author: C2000 Technical Training, Texas Instruments
+**********************************************************************/
+
+#include "Lab.h"                        // Main include file
+
+
+#if 1      // 1 = Use Task1 from this file; 0 = Don't use
+/**********************************************************************
+* Task: CLA Task 1
+* 
+* This task is triggered at the end of conversion with an ADC-A interrupt.
+* The ADC-A RESULT0 register is read as soon as it is available. It will then
+* run a FIR filter and places the result into ClaFilter. The CPU will take
+* an interrupt at the end of the task. It will log the ADC-A RESULT0 register
+* for comparison as well as the CLA generated ClaFilter value.
+**********************************************************************/
+interrupt void Cla1Task1 (void)
+{
+    // Local Variables
+    float32 Y;
+
+    __mdebugstop();
+   
+    xDelay[0] = (float32)AdcaResultRegs.ADCRESULT0;  // Read the ADC result
+    Y = coeffs[4] * xDelay[4];                       // First Calculation of sum of products
+    xDelay[4] = xDelay[3];                           // xDelay[4] can now be updated because it has been used
+    Y = Y + coeffs[3] * xDelay[3];                   // Second product, 1st add
+    xDelay[3] = xDelay[2];                           // xDelay[3] update
+    Y = Y + coeffs[2] * xDelay[2];                   // Third product, 2nd add
+    xDelay[2] = xDelay[1];                           // xDelay[2] update
+    Y = Y + coeffs[1] * xDelay[1];                   // Fourth product, 3rd add
+    xDelay[1] = xDelay[0];                           // xDelay[1] update
+    Y = Y + coeffs[0] * xDelay[0];                   // Accumulate final product
+    ClaFilteredOutput = (Uint16)Y;                   // Convert result to signed 16-bit and store
+}
+#endif
+/**********************************************************************
+* Task: CLA Task 2
+**********************************************************************/
+interrupt void Cla1Task2 (void)
+{
+	
+}
+/**********************************************************************
+* Task: CLA Task 3
+**********************************************************************/
+interrupt void Cla1Task3 (void)
+{
+	
+}
+/**********************************************************************
+* Task: CLA Task 4
+**********************************************************************/
+interrupt void Cla1Task4 (void)
+{
+	
+}
+/**********************************************************************
+* Task: CLA Task 5
+**********************************************************************/
+interrupt void Cla1Task5 (void)
+{
+	
+}
+/**********************************************************************
+* Task: CLA Task 6
+**********************************************************************/
+interrupt void Cla1Task6 (void)
+{
+	
+}
+/**********************************************************************
+* Task: CLA Task 7
+**********************************************************************/
+interrupt void Cla1Task7 (void)
+{
+	
+}
+/**********************************************************************
+* Task: CLA Task 8
+*
+* The delay elements xDelay are placed in the section Cla1ToCpuMsgRAM.
+* The C28x does not have write access to this array. Therefore, this
+* array will not be initialized at startup time by the cinit routine.
+* The purpose of this task is to do a one-time initialization of the
+* delay buffer and set the elements to zero.
+**********************************************************************/
+interrupt void Cla1Task8 (void)
+{
+    // Local Variables
+    int16 i;
+
+    __mdebugstop();
+
+    for(i = 0; i < 5; i++)
+    {
+     xDelay[i] = 0.0;   
+    }
+}
+
+//--- end of file -----------------------------------------------------
