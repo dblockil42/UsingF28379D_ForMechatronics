@@ -87,9 +87,12 @@ I have been teaching with the C2000 series of processors since the early 2000s w
 
 I use the F2837x processor in the classes:
 	[ME461, Computer Control of Mechanical Systems](http://coecsl.ece.illinois.edu/me461),
-	[SE420, Digital Control of Dynamic Systems](http://coecsl.ece.illinois.edu/se420)
+	
+	[SE420, Digital Control of Dynamic Systems](http://coecsl.ece.illinois.edu/se420),
+	
 	[SE423, Mechatronics](http://coecsl.ece.illinois.edu/se423).  
-	You can find these classes and all the rest of the classes that use the Grainger College of Engineering Control Systems Lab at http://coecsl.ece.illinois.edu  
+	
+You can find these classes and all the rest of the classes that use the Grainger College of Engineering Control Systems Lab at http://coecsl.ece.illinois.edu  
 	
 This is a picture and link to a final project that one of the students taking ME461 created. 
 [![Product Name Screen Shot][product-screenshot]](https://www.hackster.io/yixiaol2/control-segbot-with-tv-remote-98b02c)
