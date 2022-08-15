@@ -41,7 +41,7 @@
     <a href="https://github.com/dblockil42/UsingF28379D_ForMechatronics"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/dblockil42/UsingF28379D_ForMechatronics">View YouTube Channel</a>
+    <a href="https://www.youtube.com/watch?v=pqUko_UUdbc&list=PL-l3usZMjrdI7pazXXURZ83wFKBJd2WC6&index=1">View YouTube Channel</a>
     ·
     <a href="https://github.com/dblockil42/UsingF28379D_ForMechatronics/issues">Report Bug</a>
     ·
@@ -91,6 +91,8 @@ I use the F2837x processor in the classes:
 - [SE423, Mechatronics](http://coecsl.ece.illinois.edu/se423).  
 	
 You can find these classes and all the rest of the classes that use the Grainger College of Engineering Control Systems Lab at http://coecsl.ece.illinois.edu  
+
+I have created a YouTube channel that has parts of my SE423 and ME461 lectures describing how to use/program the TMS320F28379D processor.  Please visit https://www.youtube.com/watch?v=pqUko_UUdbc&list=PL-l3usZMjrdI7pazXXURZ83wFKBJd2WC6&index=1
 	
 This is a picture and link to a final project that one of the students taking ME461 created. 
 [![Product Name Screen Shot][product-screenshot]](https://www.hackster.io/yixiaol2/control-segbot-with-tv-remote-98b02c)
