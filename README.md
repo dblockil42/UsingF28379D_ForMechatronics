@@ -94,6 +94,7 @@ You can find these classes and all the rest of the classes that use the Grainger
 	
 This is a picture and link to a final project that one of the students taking ME461 created. 
 [![Product Name Screen Shot][product-screenshot]](https://www.hackster.io/yixiaol2/control-segbot-with-tv-remote-98b02c)
+See her additional F28379D based projects at https://www.hackster.io/yixiaol2
 
 
 
