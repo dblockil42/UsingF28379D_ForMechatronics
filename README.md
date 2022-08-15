@@ -147,7 +147,7 @@ _Steps for installing:_
 
 Best to start at the YouTube channel :  Coming Soon
 
-_For more examples, please refer to the class websites [SE423 (Mechatronics](http://coecsl.ece.illinois.edu/se423) and [ME461 (Computer Control of Mechanical Systems)](http://coecsl.ece.illinois.edu/me461)
+For more examples, please refer to the class websites [SE423 (Mechatronics](http://coecsl.ece.illinois.edu/se423) and [ME461 (Computer Control of Mechanical Systems)](http://coecsl.ece.illinois.edu/me461)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
