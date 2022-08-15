@@ -33,7 +33,7 @@
     <img src="launchxl-f28379d.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Instructing Mechatronics with the Texas Instruments TMS320F28379D README.md</h3>
+  <h3 align="center">Instructing Mechatronics with the Texas Instruments TMS320F28379D</h3>
 
   <p align="center">
     Mechatronics, Robotics and Real-Time Control with the TI TMS320F28379D Processor
