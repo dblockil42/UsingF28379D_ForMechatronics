@@ -81,11 +81,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This is a picture and link to a final project that one of the students taking ME461 created. 
-
-[![Product Name Screen Shot][product-screenshot]](https://www.hackster.io/yixiaol2/control-segbot-with-tv-remote-98b02c)
-
-
 The TMS320F28379D is an incredibly powerful processor for embedded control design.
 
 I have been teaching with the C2000 series of processors since the early 2000s with the F2407 processor and a bit later the F2808.  Currently in my lab instruction I use the F28335, F28379D and F28027 processors.
@@ -95,6 +90,12 @@ I use the F2837x processor in the classes:
 	[SE420, Digital Control of Dynamic Systems](http://coecsl.ece.illinois.edu/se420)
 	[SE423, Mechatronics](http://coecsl.ece.illinois.edu/se423).  
 	You can find these classes and all the rest of the classes that use the Grainger College of Engineering Control Systems Lab at http://coecsl.ece.illinois.edu  
+	
+This is a picture and link to a final project that one of the students taking ME461 created. 
+[![Product Name Screen Shot][product-screenshot]](https://www.hackster.io/yixiaol2/control-segbot-with-tv-remote-98b02c)
+
+
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
