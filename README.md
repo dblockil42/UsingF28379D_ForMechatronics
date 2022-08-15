@@ -81,9 +81,10 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+This is a picture and link to a final project that one of the students taking ME461 created. 
 
 [![Product Name Screen Shot][product-screenshot]](https://www.hackster.io/yixiaol2/control-segbot-with-tv-remote-98b02c)
-This is a picture and link to a final project that one of the students taking ME461 created. 
+
 
 The TMS320F28379D is an incredibly powerful processor for embedded control design.
 
