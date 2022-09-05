@@ -41,7 +41,7 @@
     <a href="https://github.com/dblockil42/UsingF28379D_ForMechatronics"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://www.youtube.com/watch?v=pqUko_UUdbc&list=PL-l3usZMjrdI7pazXXURZ83wFKBJd2WC6&index=1">View YouTube Channel</a>
+    <a href="https://www.youtube.com/playlist?list=PL-l3usZMjrdI7pazXXURZ83wFKBJd2WC6">View YouTube Channel</a>
     ·
     <a href="https://github.com/dblockil42/UsingF28379D_ForMechatronics/issues">Report Bug</a>
     ·
